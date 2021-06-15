@@ -80,7 +80,7 @@ class block_moodletest extends block_list {
     }
 
     public function applicable_formats() {
-        return array('all' => true, 'mod' => false, 'my' => false, 'admin' => false,
+        return array('all' => true, 'mod' => true, 'my' => false, 'admin' => false,
                      'tag' => false);
     }
 }
